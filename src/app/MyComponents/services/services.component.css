@@ -1,0 +1,35 @@
+.mt-8{
+    margin-top: 8rem;
+}
+
+.branding{
+    width: 15vh;
+}
+
+.services{
+    background: url(../../../assets/images/services/services2.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+}
+
+.title{
+    border-left: 5px solid darkgoldenrod;
+    padding-left: 10px;
+    color: darkgoldenrod;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+
+.bg-strip{
+    background-color: rgba(24,52,99,255)
+}
+
+.dimension{
+    width: 10rem;
+}
+

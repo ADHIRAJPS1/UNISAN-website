@@ -1,0 +1,17 @@
+.mt-8{
+    margin-top: 8rem;
+}
+
+.branding{
+    width: 15vh;
+}
+
+.bg-strip{
+    background-color: rgba(24,52,99,255)
+}
+
+.title{
+    border-left: 5px solid darkgoldenrod;
+    padding-left: 10px;
+    color: darkgoldenrod;
+}
