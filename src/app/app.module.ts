@@ -9,6 +9,10 @@ import { AboutComponent } from './MyComponents/about/about.component';
 import { ContactComponent } from './MyComponents/contact/contact.component';
 import { TermsconditionsComponent } from './MyComponents/termsconditions/termsconditions.component';
 import { FaqComponent } from './MyComponents/faq/faq.component';
+import { ExternalComponent } from './MyComponents/external/external.component';
+import { PrivacyComponent } from './MyComponents/privacy/privacy.component';
+import { HeaderComponent } from './MyComponents/header/header.component';
+import { FooterComponent } from './MyComponents/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { FaqComponent } from './MyComponents/faq/faq.component';
     AboutComponent,
     ContactComponent,
     TermsconditionsComponent,
-    FaqComponent
+    FaqComponent,
+    ExternalComponent,
+    PrivacyComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
