@@ -8,6 +8,7 @@ import { TermsconditionsComponent } from './MyComponents/termsconditions/termsco
 import { ExternalComponent } from './MyComponents/external/external.component';
 import { FaqComponent } from './MyComponents/faq/faq.component';
 import { PrivacyComponent } from './MyComponents/privacy/privacy.component';
+import { ErrorComponent } from './MyComponents/error/error.component';
 
 const routes: Routes = [
   { path: '', component:HomeComponent},
@@ -18,7 +19,7 @@ const routes: Routes = [
   { path:'faq', component:FaqComponent },
   { path:'external', component:ExternalComponent },
   { path:'privacy', component:PrivacyComponent },
-  { path:'**', component:HomeComponent }
+  { path:'**', component:ErrorComponent }
 ];
 
 @NgModule({

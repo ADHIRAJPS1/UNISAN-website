@@ -13,6 +13,7 @@ import { ExternalComponent } from './MyComponents/external/external.component';
 import { PrivacyComponent } from './MyComponents/privacy/privacy.component';
 import { HeaderComponent } from './MyComponents/header/header.component';
 import { FooterComponent } from './MyComponents/footer/footer.component';
+import { ErrorComponent } from './MyComponents/error/error.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './MyComponents/footer/footer.component';
     ExternalComponent,
     PrivacyComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
