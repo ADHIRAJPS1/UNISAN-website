@@ -1,3 +1,18 @@
+/* .carousel-indicators-left {
+    display: flex;
+    justify-content: flex-start;
+  } */
+
+.mainheight{
+    height: 90vh;
+}
+
+
+.selector{
+    position: absolute;
+    bottom: 10px;
+    left: px;
+}
 .mt-8{
     margin-top: 8rem;
 }
@@ -5,13 +20,13 @@
 .branding{
     width: 15vh;
 }
-.hero{
+/* .hero{
     background: url(../../../assets/images/home/mainhero-min.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
     padding: 0 20px;
-}
+} */
 
 .title{
     border-left: 5px solid darkgoldenrod;

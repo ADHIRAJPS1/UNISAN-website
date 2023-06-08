@@ -25,3 +25,10 @@
     width: 10rem;
 }
 
+.navbar-nav .nav-item:hover .nav-link {
+    position: relative;
+    border-bottom: 3px solid darkgoldenrod;
+    transform: translateY(-3px);
+  }
+  
+

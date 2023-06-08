@@ -1,13 +1,44 @@
-<!-- Hero Content - Image and Navbar -->
+<!-- Carousel -->
 
-<div class="hero position-relative body" data-aos="fade-up">
-    <app-header></app-header>
-    <div class="text-white position-absolute bottom-0 my-5">
-        <h3 class="fs-1">Innovative Design and <br />Expert Development</h3>
-        <div class="fs-3" style="width: 75vw;">The Perfect Pair for your Digital Needs</div>
+<div id="carouselExampleCaptions" class="carousel slide position-relative" data-bs-ride="carousel" data-aos="fade-up">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../../../assets/images/home/mainhero-min.jpg" class="d-block w-100" alt="...">
+            <div class="text-white position-absolute bottom-0 m-5">
+                <h3 class="fs-1">Innovative Design and <br />Expert Development</h3>
+                <div class="fs-3" style="width: 75vw;">The Perfect Pair for your Digital Needs</div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../../../assets/images/home/mainhero2.jpg" class="d-block w-100" alt="...">
+            <div class="text-white position-absolute bottom-0 m-5">
+                <h3 class="fs-1">Creating Digital <br />Masterpieces</h3>
+                <div class="fs-3" style="width: 75vw;">Bridging Design and Development for</div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../../../assets/images/home/mainhero3.jpg" class="d-block w-100" alt="...">
+            <div class="text-white position-absolute bottom-0 m-5">
+                <h3 class="fs-1">Designing for Success</h3>
+                <div class="fs-3" style="width: 75vw;">Building Seamless Digital Experiences<br />through Design and
+                    Development</div>
+            </div>
+        </div>
     </div>
 </div>
 
+<!-- Navbar -->
+<div class="position-absolute top-0 start-0 w-100">
+    <app-header></app-header>
+</div>
 
 <!-- Main Content -->
 
@@ -24,7 +55,8 @@
                 exceptional digital experiences that inspire and engage your audience. Join us on your journey to
                 digital excellence and discover what's possible with UNISAN.
             </p>
-            <a href="#">Read More</a>
+            <a class="btn btn-lg rounded" style="background-color:darkgoldenrod;" routerLink="/contact">Contact
+                Us</a>
         </div>
         <div class="col-lg-5 d-flex justify-content-center align-items-center gap-2 gap-lg-5" data-aos="fade-left">
             <div class="d-flex d-lg-block gap-2 gap-lg-5">
@@ -56,6 +88,54 @@
     </div>
 
 
+</div>
+
+<!-- Our Partners -->
+<div class="container text-body-secondary mt-8">
+    <h2 class="title fs-1">Our Partners</h2>
+    <span class="fw-semibold fs-4">Collaborating with Industry-Leading Partners</span>
+    <!-- First Row -->
+    <div class="row-md text-center gap-3 d-flex justify-content-center mt-5">
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+    </div>
+    <!-- Second Row -->
+    <div class="row-md text-center gap-3 d-flex justify-content-center mt-5">
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
+            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
+            <div class="fw-semibold fs-5"></div>
+        </div>
+    </div>
 </div>
 
 <!-- Our Work -->
@@ -129,7 +209,7 @@
         <h2 class="title fs-1">Our Services</h2>
         <span class="fw-semibold fs-4">Elevating User Experiences with Expert UI/UX Design and Development
             Services</span>
-        <div class="row text-center align-self-center gap-3 mt-5" data-aos="fade-down">
+        <div class="row text-center align-self-center gap-3 mt-5 mb-5" data-aos="fade-down">
             <div class="col-md">
                 <img src="../../../assets/images/home/uiux.jpg" class="rounded w-75">
                 <div class="fw-semibold fs-5 mt-3">UI/UX Design</div>
@@ -144,6 +224,14 @@
                 <img src="../../../assets/images/home/dataanalyst.jpg" class="rounded w-75">
                 <div class="fw-semibold fs-5 mt-3">Data Analyst</div>
             </div>
+        </div>
+
+        <hr />
+
+        <div class="text-center mt-5">
+            <span class="fs-3">Do you want any of these services? Feel Free to Contact Us!</span><br />
+            <a class="btn btn-lg rounded mt-3" style="background-color:darkgoldenrod;" routerLink="/contact">Contact
+                Us</a>
         </div>
     </div>
 </div>
