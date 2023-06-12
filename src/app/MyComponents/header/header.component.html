@@ -1,39 +1,56 @@
 <nav class="navbar navbar-expand-lg d-flex flex-wrap justify-content-center py-3">
     <div class="container-fluid">
         <img src="../../../assets/images/logo.png"
-            class="branding d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-            alt="Branding">
-        <button class="navbar-toggler bg-light p-2 text-white bg-opacity-25 " type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            alt="Branding" width="90">
+        <button class="navbar-toggler bg-light p-2 text-white bg-opacity-25 " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav gap-lg-3">
-                <li class="nav-item">
-                    <a class="nav-link text-white" routerLink="/">Works</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" routerLink="/services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" routerLink="/about">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white d-lg-none" routerLink="/contact">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white d-lg-none" routerLink="/external">External Content</a>
-                </li>
-            </ul>
-            <div class="d-flex gap-3">
-                <a class="btn primarycolor btn-lg d-none d-lg-block text-white rounded border-white" routerLink="/contact">Contact
-                    Us</a>
-                <a class="btn bg-light text-white bg-opacity-25 d-none d-lg-block" routerLink="/external">
-                    <span class="navbar-toggler-icon"></span>
-                </a>
+            <div class="bg-black bg-opacity-75 rounded p-2 d-none d-lg-block">
+                <ul class="navbar-nav gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn primarycolor btn d-none d-lg-block text-white rounded border-white"
+                        routerLink="/contact">Contact Us</a>
+                    </li>
+                    <a class="btn bg-light text-white bg-opacity-25 d-none d-lg-block" routerLink="/external">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                </ul>
             </div>
+
+            <div class="bg-black opacity-90 rounded p-2 d-block d-lg-none">
+                <ul class="navbar-nav gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-lg-none" routerLink="/contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-lg-none" routerLink="/external">More</a>
+                    </li>
+                </ul>
+            </div>
+            
         </div>
     </div>
 </nav>

@@ -10,32 +10,60 @@
             aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="../../../assets/images/home/mainhero-min.jpg" class="d-block w-100" alt="...">
-            <div class="text-white position-absolute bottom-0 m-5">
-                <h3 class="fs-1">Innovative Design and <br />Expert Development</h3>
-                <div class="fs-3" style="width: 75vw;">The Perfect Pair for your Digital Needs</div>
+        <div class="carousel-item active position-relative">
+            <img src="../../../assets/images/home/mainhero-min.jpg" class="img-fluid d-none d-lg-block"
+                alt="Carousel Image 1">
+            <img src="../../../assets/images/home/mainhero-min.jpg" class="vh-50 d-block d-lg-none"
+                alt="Carousel Image 1">
+
+            <div class="text-white position-absolute bottom-0 m-5 d-none d-lg-block ">
+                <h1 class="fs-1 fw-bolder">Innovative Design and <br /> Expert Development</h1>
+                <p class="fs-3">The Perfect Pair for your Digital Needs.</p>
+            </div>
+
+            <div class="text-white position-absolute bottom-0 m-5 d-block d-lg-none">
+                <h2 class="fs-2 fw-bolder">Innovative Design and Expert Development</h2>
+                <p>The Perfect Pair for your Digital Needs.</p>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="../../../assets/images/home/mainhero2.jpg" class="d-block w-100" alt="...">
-            <div class="text-white position-absolute bottom-0 m-5">
-                <h3 class="fs-1">Creating Digital <br />Masterpieces</h3>
-                <div class="fs-3" style="width: 75vw;">Bridging Design and Development for</div>
+
+        <div class="carousel-item position-relative">
+            <img src="../../../assets/images/home/mainhero2.jpg" class="img-fluid d-none d-lg-block"
+                alt="Carousel Image 2">
+            <img src="../../../assets/images/home/mainhero2.jpg" class="vh-50 d-block d-lg-none" alt="Carousel Image 2">
+
+            <div class="text-white position-absolute bottom-0 m-5 d-none d-lg-block">
+                <h1 class="fs-1 fw-bolder">Creating Digital <br />Masterpieces</h1>
+                <p class="fs-3" style="width: 75vw;">Bridging Design and Development for</p>
+            </div>
+
+            <div class="text-white position-absolute bottom-0 m-5 d-block d-lg-none">
+                <h2 class="fs-2 fw-bolder">Creating Digital Masterpieces</h2>
+                <p>Bridging Design and Development for.</p>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="../../../assets/images/home/mainhero3.jpg" class="d-block w-100" alt="...">
-            <div class="text-white position-absolute bottom-0 m-5">
-                <h3 class="fs-1">Designing for Success</h3>
-                <div class="fs-3" style="width: 75vw;">Building Seamless Digital Experiences<br />through Design and
-                    Development</div>
+
+        <div class="carousel-item position-relative">
+            <img src="../../../assets/images/home/mainhero3.jpg" class="img-fluid d-none d-lg-block"
+                alt="Carousel Image 3">
+            <img src="../../../assets/images/home/mainhero3.jpg" class="vh-50 d-block d-lg-none" alt="Carousel Image 3">
+
+            <div class="text-white position-absolute bottom-0 m-5 d-none d-lg-block">
+                <h1 class="fs-1 fw-bolder">Designing for Success</h1>
+                <p class="fs-3" style="width: 75vw;">Building Seamless Digital Experiences<br />through Design and
+                    Development</p>
+            </div>
+
+            <div class="text-white position-absolute bottom-0 m-5 d-block d-lg-none">
+                <h2 class="fs-2 fw-bolder">Designing for Success</h2>
+                <p>Building Seamless Digital Experiences through Design and Development</p>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Navbar -->
+
 <div class="position-absolute top-0 start-0 w-100">
     <app-header></app-header>
 </div>
@@ -43,9 +71,9 @@
 <!-- Main Content -->
 
 <!-- About Us  -->
-<div class="container text-body-secondary mt-8">
+<div class="container text-body-secondary mt-6">
     <div class="row">
-        <div class="col-lg-7 mb-5" data-aos="fade-right">
+        <div class="col-lg-7 mb-5" data-aos="fade-up">
             <h2 class="title fs-1">About Us</h2>
             <span class="fw-semibold fs-4">Innovative Design Solutions for Today's Digital
                 World</span>
@@ -55,10 +83,10 @@
                 exceptional digital experiences that inspire and engage your audience. Join us on your journey to
                 digital excellence and discover what's possible with UNISAN.
             </p>
-            <a class="btn btn-lg rounded" style="background-color:darkgoldenrod;" routerLink="/contact">Contact
+            <a class="btn btn-lg rounded mt-4" style="background-color:darkgoldenrod;" routerLink="/contact">Contact
                 Us</a>
         </div>
-        <div class="col-lg-5 d-flex justify-content-center align-items-center gap-2 gap-lg-5" data-aos="fade-left">
+        <div class="col-lg-5 d-flex justify-content-center align-items-center gap-2 gap-lg-5" data-aos="fade-up">
             <div class="d-flex d-lg-block gap-2 gap-lg-5">
                 <div class="rounded-circle text-center d-flex align-items-center primarycolor mb-lg-5"
                     style="width: 130px; height: 130px;">
@@ -86,126 +114,11 @@
             </div>
         </div>
     </div>
-
-
-</div>
-
-<!-- Our Partners -->
-<div class="container text-body-secondary mt-8">
-    <h2 class="title fs-1">Our Partners</h2>
-    <span class="fw-semibold fs-4">Collaborating with Industry-Leading Partners</span>
-    <!-- First Row -->
-    <div class="row-md text-center gap-3 d-flex justify-content-center mt-5">
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-    </div>
-    <!-- Second Row -->
-    <div class="row-md text-center gap-3 d-flex justify-content-center mt-5">
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-        <div class="col-lg d-lg-flex justify-content-center align-items-center gap-3">
-            <img src="../../../assets/images/imgholder.jpg" class="rounded-circle" width="150">
-            <div class="fw-semibold fs-5"></div>
-        </div>
-    </div>
-</div>
-
-<!-- Our Work -->
-<div class="container text-body-secondary mt-8">
-    <h2 class="title fs-1">Our Works</h2>
-    <span class="fw-semibold fs-4 text-body-secondary">Our Impressive Portfolio</span><br />
-    <span class="fw-normal fs-5 text-body-secondary">Transforming User Experiences through Design</span>
-
-    <!-- Projects -->
-    <div class="row mt-5 align-items-center">
-        <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-right">
-            <img src="../../../assets/images/home/Rectangle 5.jpg" class="img-fluid rounded" width="400" height="400">
-        </div>
-        <div class="col-md-8" data-aos="fade-left">
-            <h3>Project 1</h3>
-            <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate dolores aliquam. At harum
-                voluptatibus error libero saepe. Quisquam, accusamus! Officia praesentium at quae. Facilis qui
-                consectetur eos commodi numquam? <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quisquam quidem illum iure ut
-                sunt sequi cum eum accusantium minus perspiciatis explicabo provident, vero tempore inventore dolor
-                obcaecati voluptate nam!
-            </p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
-
-    <div class="row mt-5 align-items-center">
-        <div class="col-md-4 d-block d-md-none mb-3" data-aos="fade-left">
-            <img src="../../../assets/images/home/Rectangle 6.jpg" class="img-fluid rounded" width="400" height="400">
-        </div>
-        <div class="col-md-8 mb-3 mb-md-0" data-aos="fade-right">
-            <h3>Project 2</h3>
-            <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate dolores aliquam. At harum
-                voluptatibus error libero saepe. Quisquam, accusamus! Officia praesentium at quae. Facilis qui
-                consectetur eos commodi numquam? <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quisquam quidem illum iure ut
-                sunt sequi cum eum accusantium minus perspiciatis explicabo provident, vero tempore inventore dolor
-                obcaecati voluptate nam!
-            </p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="col-md-4 d-none d-md-block" data-aos="fade-left">
-            <img src="../../../assets/images/home/Rectangle 6.jpg" class="img-fluid rounded" width="400" height="400">
-        </div>
-    </div>
-
-    <div class="row mt-5 align-items-center">
-        <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-right">
-            <img src="../../../assets/images/home/Rectangle 5-1.jpg" class="img-fluid rounded" width="400" height="400">
-        </div>
-        <div class="col-md-8" data-aos="fade-left">
-            <h3>Project 3</h3>
-            <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate dolores aliquam. At harum
-                voluptatibus error libero saepe. Quisquam, accusamus! Officia praesentium at quae. Facilis qui
-                consectetur eos commodi numquam? <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quisquam quidem illum iure ut
-                sunt sequi cum eum accusantium minus perspiciatis explicabo provident, vero tempore inventore dolor
-                obcaecati voluptate nam!
-            </p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
 </div>
 
 <!-- Our Services -->
 <div class="primarycolor">
-    <div class="container py-5 text-white mt-8">
+    <div class="container py-5 text-white mt-6">
         <h2 class="title fs-1">Our Services</h2>
         <span class="fw-semibold fs-4">Elevating User Experiences with Expert UI/UX Design and Development
             Services</span>
@@ -236,9 +149,8 @@
     </div>
 </div>
 
-
 <!-- Testimonials -->
-<div class="container text-body-secondary mt-8" data-aos="fade-up">
+<div class="container text-body-secondary mt-6" data-aos="fade-up">
     <h2 class="title fs-1" id="testimonial">Testimonials</h2>
     <span class="fw-semibold fs-4">Here It from our Clients: </span><br />
     <span class="fw-normal fs-3">The Power of Exceptional UI/UX Design</span>

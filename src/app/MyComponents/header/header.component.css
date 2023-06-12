@@ -2,10 +2,6 @@
     margin-top: 8rem;
 }
 
-.branding{
-    width: 15vh;
-}
-
 .title{
     border-left: 5px solid darkgoldenrod;
     padding-left: 10px;
@@ -15,7 +11,6 @@
 .text-justify{
     text-align: justify;
 }
-
 
 .primarycolor{
     background-color: rgba(24,52,99,255)
@@ -31,4 +26,7 @@
     transform: translateY(-3px);
   }
   
+  .opacity-90{
+    opacity: 0.9
+  }
 
