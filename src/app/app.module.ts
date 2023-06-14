@@ -14,6 +14,8 @@ import { PrivacyComponent } from './MyComponents/privacy/privacy.component';
 import { HeaderComponent } from './MyComponents/header/header.component';
 import { FooterComponent } from './MyComponents/footer/footer.component';
 import { ErrorComponent } from './MyComponents/error/error.component';
+import { Header2Component } from './MyComponents/header2/header2.component';
+import { ProcessComponent } from './MyComponents/process/process.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ErrorComponent } from './MyComponents/error/error.component';
     PrivacyComponent,
     HeaderComponent,
     FooterComponent,
-    ErrorComponent
+    ErrorComponent,
+    Header2Component,
+    ProcessComponent
   ],
   imports: [
     BrowserModule,

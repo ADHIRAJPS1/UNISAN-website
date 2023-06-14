@@ -1,0 +1,20 @@
+.vh-40 {
+    height: 40vh;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.title {
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+
+.primarycolor {
+    background-color: rgba(24, 52, 99, 255)
+}
+
+.container{
+    color: #454545
+}

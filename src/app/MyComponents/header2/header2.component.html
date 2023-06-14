@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg d-flex flex-wrap justify-content-center py-3">
+    <div class="container-fluid">
+        <a routerLink="/">
+            <img src="../../../assets/images/coloredlogo.png"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                alt="Branding" width="90">
+        </a>
+
+        <button class="navbar-toggler bg-light p-2 text-white bg-opacity-25 " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="rounded p-2 d-none d-lg-block">
+                <ul class="navbar-nav gap-lg-3 fw-semibold">
+                    <li class="nav-item">
+                        <a class="nav-link dummy-border" routerLink="/" routerLinkActive="active"
+                            [routerLinkActiveOptions]="{ exact: true }">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/services" routerLinkActive="active">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/about" routerLinkActive="active">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn primarycolor btn d-none d-lg-block rounded text-white fw-semibold"
+                            routerLink="/contact">Contact Us</a>
+                    </li>
+                    <a class="btn bg-light bg-opacity-25 d-none d-lg-block" routerLink="/external">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="bg-black opacity-90 rounded p-2 d-block d-lg-none w-50 ms-auto">
+                <ul class="navbar-nav gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/" routerLinkActive="active"
+                            [routerLinkActiveOptions]="{ exact: true }">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/services" routerLinkActive="active">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/about" routerLinkActive="active">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-lg-none" routerLink="/contact" routerLinkActive="active">Contact
+                            Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-lg-none" routerLink="/external"
+                            routerLinkActive="active">More</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
