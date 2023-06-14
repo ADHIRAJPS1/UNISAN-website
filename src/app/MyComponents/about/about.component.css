@@ -1,39 +1,30 @@
-.mt-8{
-    margin-top: 8rem;
+.mb-6{
+    margin-bottom: 6rem;
 }
 
-.mb-8{
-    margin-bottom: 8rem;
+.mt-6{
+    margin-top: 6rem;
 }
 
-.branding{
-    width: 15vh;
-}
-
-.aboutus{
-    background: url(../../../assets/images/about/abouthero-min.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    padding: 0 20px;
+.vh-40{
+    height: 40vh;
 }
 
 .title{
     border-left: 5px solid darkgoldenrod;
     padding-left: 10px;
     color: darkgoldenrod;
+    font-weight: 700;
 }
 
 .text-justify{
     text-align: justify;
 }
 
-
 .primarycolor{
     background-color: rgba(24,52,99,255)
 }
 
-.dimension{
-    width: 10rem;
+.container{
+    color:#454545;
 }
-

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* App Background Color */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightsteelblue;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(24, 52, 99, 255);
+  border-radius: 1rem;
+  border: 0.1rem solid transparent;
+  background-clip: content-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(85, 131, 211);
+}
+
+.fade-out {
+  animation: fadeOutAnimation 0.3s ease-in;
+}
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

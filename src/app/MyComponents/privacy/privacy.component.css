@@ -6,26 +6,21 @@
     margin-bottom: 8rem;
 }
 
-.branding{
-    width: 15vh;
-}
-
 .title{
     border-left: 5px solid darkgoldenrod;
     padding-left: 10px;
     color: darkgoldenrod;
+    font-weight: 700;
 }
 
 .text-justify{
     text-align: justify;
 }
 
-
 .primarycolor{
     background-color: rgba(24,52,99,255)
 }
 
-.dimension{
-    width: 10rem;
+.container{
+    color: #454545;
 }
-

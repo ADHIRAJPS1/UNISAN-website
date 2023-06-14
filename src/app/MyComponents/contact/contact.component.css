@@ -1,13 +1,5 @@
-.mt-8{
-    margin-top: 8rem;
-}
-
 .mb-8{
     margin-bottom: 8rem;
-}
-
-.branding{
-    width: 15vh;
 }
 
 .primarycolor{
@@ -19,3 +11,12 @@
     padding-left: 10px;
     color: darkgoldenrod;
 }
+
+.container{
+    color:#454545;
+}
+
+.hover-white:hover {
+    color: white;
+  }
+  

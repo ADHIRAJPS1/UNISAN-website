@@ -1,32 +1,21 @@
-.mt-8{
-    margin-top: 8rem;
+.primarycolor {
+    background-color: rgba(24, 52, 99, 255)
 }
 
-.title{
-    border-left: 5px solid darkgoldenrod;
-    padding-left: 10px;
-    color: darkgoldenrod;
-}
-
-.text-justify{
-    text-align: justify;
-}
-
-.primarycolor{
-    background-color: rgba(24,52,99,255)
-}
-
-.dimension{
-    width: 10rem;
-}
-
-.navbar-nav .nav-item:hover .nav-link {
+.navbar-nav .nav-item .nav-link.active {
     position: relative;
     border-bottom: 3px solid darkgoldenrod;
-    transform: translateY(-3px);
-  }
-  
-  .opacity-90{
-    opacity: 0.9
+}
+
+.nav-item:hover .nav-link{
+    position: relative;
+    border-bottom: 3px solid whitesmoke; 
   }
 
+.opacity-90 {
+    opacity: 0.9
+}
+
+.dummy-border{
+    border-bottom: 3px solid transparent; 
+}

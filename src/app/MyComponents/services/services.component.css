@@ -1,27 +1,41 @@
-.mt-8{
-    margin-top: 8rem;
+.mt-6{
+    margin-top: 6rem;
 }
 
-.mb-8{
-    margin-bottom: 8rem;
+.mt-10{
+    margin-top: 10rem;
 }
 
-.branding{
-    width: 15vh;
+
+.mb-6{
+    margin-bottom: 6rem;
 }
 
-.services{
-    background: url(../../../assets/images/services/services2.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    padding: 0 20px;
+.vh-40{
+    height: 40vh;
+}
+
+.gradient-text{
+    background-image: linear-gradient(rgba(255, 0, 255, 0.9), rgba(0, 255, 255, 0.2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.5
+}
+
+.md-text{
+    background-image: linear-gradient(rgba(255, 0, 255, 0.9), rgba(0, 255, 255, 0.2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.9
 }
 
 .title{
     border-left: 5px solid darkgoldenrod;
     padding-left: 10px;
     color: darkgoldenrod;
+    font-weight: 700;
 }
 
 .text-justify{
@@ -33,7 +47,7 @@
     background-color: rgba(24,52,99,255)
 }
 
-.dimension{
-    width: 10rem;
+.container{
+    color: #454545;
 }
 

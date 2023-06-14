@@ -1,41 +1,35 @@
-.vh-50{
+.vh-40 {
     height: 40vh;
 }
 
-.selector{
-    position: absolute;
-    bottom: 10px;
-    left: px;
-}
-.mt-6{
+.mt-6 {
     margin-top: 6rem;
 }
 
-.branding{
-    width: 15vh;
-}
-
-.title{
+.title {
     border-left: 5px solid darkgoldenrod;
     padding-left: 10px;
     color: darkgoldenrod;
+    font-weight: 700;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
 
-
-.primarycolor{
-    background-color: rgba(24,52,99,255)
+.primarycolor {
+    background-color: rgba(24, 52, 99, 255);
 }
 
-.dimension{
-    width: 10rem;
-} 
-
-.no-spinners::-webkit-inner-spin-button{
-  -webkit-appearance: none;
-  margin: 0;
+.no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
+.container {
+    color: #454545
+}
+
+.hover-white:hover {
+    color: white;
+}
