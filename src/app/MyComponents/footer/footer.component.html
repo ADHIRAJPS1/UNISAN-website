@@ -1,39 +1,58 @@
-<div class="container">
-    <div class="row justify-content-center text-white text-center py-4 gap-3">
-        <div>
-            <img src="../../../assets/images/logo.png" class="branding" alt="Branding">
-        </div>
-        <div class="col-md-7">
-            Unisan helps clients and business to grow their platform smoothly on global level as we work on
-            technical
-            requirements and business of the website.
-        </div>
-
-        <div>
-            <i class="fa-solid fa-phone"></i> <a href="tel:+919696678829"
-                class="text-decoration-none text-white"> +91 969 667 8829</a> &nbsp;
-            <i class="fa-solid fa-envelope"></i> <a href="mailto:adhiraj.unisan@gmail.com"
-                class="text-decoration-none text-white"> adhiraj.unisan@gmail.com</a>
+<footer class="container py-5">
+    <div class="row">
+        <h5 class="mb-3 fw-semibold" style="color: darkgoldenrod">Quick Links</h5>
+        <div class="col-6 col-md-2 mb-3 px-3">
+            <ul class="nav flex-column text-white">
+                <li class="nav-item mb-2 "><a class="nav-link p-0 text-white" (click)="navigateToAbout()">About</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToServices()">Services</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToWorks()">Works</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Clients</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Testimonials</a></li>
+            </ul>
         </div>
 
-        <div>
-            <a href="https://www.linkedin.com/" class="text-decoration-none">
-                <i class="fa-brands fa-linkedin fa-2xl text-white"></i>
-            </a> &nbsp;
-            <a href="https://web.whatsapp.com/" class="text-decoration-none">
-                <i class="fa-brands fa-whatsapp fa-2xl text-white"></i>
-            </a>
+        <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Careers</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToFAQ()" style="cursor: pointer">FAQ</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToContact()" style="cursor: pointer">Contact US</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white"
+                        (click)="navigateToPrivacy()" style="cursor: pointer">Privacy Policy</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white"
+                        (click)="navigateToTermsConditions()" style="cursor: pointer">Terms and Condition</a></li>
+            </ul>
         </div>
 
-        <div>
-            <a routerLink="/contact" class="text-decoration-none text-white">Contact Us</a>
-            <span class="mx-2">|</span>
-            <a routerLink="/privacy" class="text-decoration-none text-white">Privacy & Policy</a>
-            <span class="mx-2">|</span>
-            <a routerLink="/termsconditions" class="text-decoration-none text-white">Terms & Condition</a>
+        <div class="col-6 col-md-2 mb-3"> </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+            <img src="../../../assets/images/logo.png" width="80" alt="Branding">
+            <form class="text-white mt-3">
+                <p>UNISAN helps clients and business to grow their platform smoothly on global level as we work on
+                    technical requirements and business of the website.
+                </p>
+                <div class="mt-3">
+                    <i class="fa-solid fa-phone"></i> <a href="tel:+919696678829"
+                        class="text-decoration-none text-white"> +91 969 667 8829</a> <br />
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-envelope"></i> <a href="mailto:adhiraj.unisan@gmail.com"
+                        class="text-decoration-none text-white">&nbsp; adhiraj.unisan@gmail.com</a>
+                </div>
+            </form>
+            <div class="mt-5">
+                <a href="https://www.linkedin.com/" class="text-decoration-none">
+                    <i class="fa-brands fa-linkedin fa-2xl text-white"></i>
+                </a> &nbsp;
+                <a href="https://web.whatsapp.com/" class="text-decoration-none">
+                    <i class="fa-brands fa-whatsapp fa-2xl text-white"></i>
+                </a>
+            </div>
         </div>
-
-        <span class="fw-lighter border-top py-2">Copyright © 2023 UNISAN All Right Reserved</span>
-
     </div>
-</div>
+
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white">
+        <p>© 2023 Company, Inc. All rights reserved.</p>
+    </div>
+</footer>
