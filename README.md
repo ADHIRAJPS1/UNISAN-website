@@ -11,4 +11,4 @@ Setup / Installation: 💻
 AngularCLI v16.0.2, Node v18.16.0, npm v9.6.7
 
 Status: 📶
-In-Progress
+Completed

@@ -9,7 +9,7 @@
             </a>
 
             <ul class="navbar-nav gap-lg-3 pe-3">
-                <button type="button" class="btn-close" routerLink="/"></button>
+                <button type="button" class="btn-close" (click)="goBack()"  data-aos="fade-down"></button>
             </ul>
 
         </div>
@@ -26,10 +26,9 @@
                         <a class="nav-link text-white fs-1 fw-bolder" routerLink="/about">About</a>
                     </div>
                     <div>
-                        <a class="nav-link text-white fs-3 fw-semibold" routerLink="#">Clients</a>
-                        <a class="nav-link text-white fs-3 fw-semibold" routerLink="/"
-                            fragment="testimonial">Testimonials</a>
-                        <a class="nav-link text-white fs-3 fw-semibold" routerLink="#">Careers</a>
+                        <a class="nav-link text-white fs-3 fw-semibold" style="cursor: pointer"><s>Clients</s></a>
+                        <a class="nav-link text-white fs-3 fw-semibold" style="cursor: pointer"><s>Testimonials</s></a>
+                        <a class="nav-link text-white fs-3 fw-semibold" style="cursor: pointer"><s>Careers</s></a>
                         <a class="nav-link text-white fs-3 fw-semibold" routerLink="/faq">FAQ</a>
                         <a class="nav-link text-white fs-3 fw-semibold" routerLink="/process">Process</a>
                         <a class="nav-link text-white fs-3 fw-semibold" routerLink="/contact">Contact Us</a>

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
+
 
 @Component({
   selector: 'app-external',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./external.component.css']
 })
 export class ExternalComponent {
+  constructor(private location: Location) { }
 
+  goBack(): void {
+    this.location.back();
+  }
 }

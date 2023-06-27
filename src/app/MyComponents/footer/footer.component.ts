@@ -14,7 +14,7 @@ export class FooterComponent {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = '/termsconditions';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
   navigateToPrivacy() {
@@ -23,7 +23,7 @@ export class FooterComponent {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = '/privacy';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
   navigateToContact() {
@@ -32,7 +32,7 @@ export class FooterComponent {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = '/contact';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
   navigateToFAQ() {
@@ -41,7 +41,7 @@ export class FooterComponent {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = '/faq';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
   navigateToWorks() {
@@ -50,7 +50,7 @@ export class FooterComponent {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = '/';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
   navigateToServices() {
@@ -59,7 +59,7 @@ export class FooterComponent {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = '/services';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
   navigateToAbout() {
@@ -67,8 +67,8 @@ export class FooterComponent {
     if (bodyElement) {
       bodyElement.classList.add('fade-out');
       setTimeout(() => {
-        window.location.href = '/services';
-      }, 150); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
+        window.location.href = '/about';
+      }, 200); // Adjust the delay (in milliseconds) to match the duration of your fade-out animation
     }
   }
 }
