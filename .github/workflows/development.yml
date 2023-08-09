@@ -1,4 +1,4 @@
-name: Angular CI/CD Pipeline
+name: Website CI/CD Pipeline
 
 on:
   push:
