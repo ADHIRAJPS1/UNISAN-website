@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/unisan2023",
+            "outputPath": "dist/UNISAN2023/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -97,6 +97,60 @@
             ],
             "scripts": []
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/UNISAN2023/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "UNISAN2023:build:development",
+              "serverTarget": "UNISAN2023:server:development"
+            },
+            "production": {
+              "browserTarget": "UNISAN2023:build:production",
+              "serverTarget": "UNISAN2023:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "UNISAN2023:build:production",
+              "serverTarget": "UNISAN2023:server:production"
+            },
+            "development": {
+              "browserTarget": "UNISAN2023:build:development",
+              "serverTarget": "UNISAN2023:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
