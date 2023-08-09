@@ -3,7 +3,7 @@ name: Angular CI/CD Pipeline
 on:
   push:
     branches:
-      - master # Change this to your main branch name
+      - master,adhiraj2 # Change this to your main branch name
 
 jobs:
   build-deploy:
