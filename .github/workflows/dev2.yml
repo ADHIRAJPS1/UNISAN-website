@@ -6,7 +6,7 @@ name: Node CI/CD UNISAN
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "adhiraj2"]
 
 jobs:
   build:
