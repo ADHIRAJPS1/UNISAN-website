@@ -10,12 +10,14 @@ import { FaqComponent } from './MyComponents/faq/faq.component';
 import { PrivacyComponent } from './MyComponents/privacy/privacy.component';
 import { ErrorComponent } from './MyComponents/error/error.component';
 import { ProcessComponent } from './MyComponents/process/process.component';
+import { ContactGformComponent } from './MyComponents/contact-gform/contact-gform.component';
 
 const routes: Routes = [
   { path: '', component:HomeComponent},
   { path:'about', component:AboutComponent },
   { path:'services', component:ServicesComponent },
-  { path:'contact', component:ContactComponent },
+  // { path:'contact', component:ContactComponent },
+  {path: 'contact', component: ContactGformComponent},
   { path:'termsconditions', component:TermsconditionsComponent },
   { path:'faq', component:FaqComponent },
   { path:'external', component:ExternalComponent },

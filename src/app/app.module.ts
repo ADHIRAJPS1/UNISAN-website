@@ -16,6 +16,7 @@ import { FooterComponent } from './MyComponents/footer/footer.component';
 import { ErrorComponent } from './MyComponents/error/error.component';
 import { Header2Component } from './MyComponents/header2/header2.component';
 import { ProcessComponent } from './MyComponents/process/process.component';
+import { ContactGformComponent } from './MyComponents/contact-gform/contact-gform.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProcessComponent } from './MyComponents/process/process.component';
     FooterComponent,
     ErrorComponent,
     Header2Component,
-    ProcessComponent
+    ProcessComponent,
+    ContactGformComponent
   ],
   imports: [
     BrowserModule,
