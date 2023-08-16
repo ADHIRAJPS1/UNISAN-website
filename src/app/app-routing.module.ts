@@ -11,6 +11,7 @@ import { PrivacyComponent } from './MyComponents/privacy/privacy.component';
 import { ErrorComponent } from './MyComponents/error/error.component';
 import { ProcessComponent } from './MyComponents/process/process.component';
 import { ContactGformComponent } from './MyComponents/contact-gform/contact-gform.component';
+import { PaymentComponent } from './MyComponents/payment/payment.component';
 
 const routes: Routes = [
   { path: '', component:HomeComponent},
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path:'external', component:ExternalComponent },
   { path:'privacy', component:PrivacyComponent },
   { path:'process', component:ProcessComponent },
+  { path:'support', component:PaymentComponent },
   { path:'**', component:ErrorComponent }
 ];
 

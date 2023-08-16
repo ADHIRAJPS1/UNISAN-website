@@ -17,6 +17,7 @@ import { ErrorComponent } from './MyComponents/error/error.component';
 import { Header2Component } from './MyComponents/header2/header2.component';
 import { ProcessComponent } from './MyComponents/process/process.component';
 import { ContactGformComponent } from './MyComponents/contact-gform/contact-gform.component';
+import { PaymentComponent } from './MyComponents/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactGformComponent } from './MyComponents/contact-gform/contact-gfor
     ErrorComponent,
     Header2Component,
     ProcessComponent,
-    ContactGformComponent
+    ContactGformComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,

@@ -3,23 +3,23 @@
         <h5 class="mb-3 fw-semibold" style="color: darkgoldenrod">Quick Links</h5>
         <div class="col-6 col-md-2 mb-3 px-3">
             <ul class="nav flex-column text-white">
-                <li class="nav-item mb-2 "><a class="nav-link p-0 text-white" (click)="navigateToAbout()" style="cursor: pointer">About</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToServices()" style="cursor: pointer">Services</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToWorks()" style="cursor: pointer">Works</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" style="cursor: pointer"><s>Clients</s></a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" style="cursor: pointer"><s>Testimonials</s></a></li>
+                <li class="nav-item mb-2 "><a class="nav-link p-0 text-white" routerLink="/about" style="cursor: pointer">About</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" routerLink="/services" style="cursor: pointer">Services</a></li>
+                <!-- <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToWorks()" style="cursor: pointer">Works</a></li> -->
+                <!-- <li class="nav-item mb-2"><a class="nav-link p-0 text-white" routerLink="clients"><s>Clients</s></a></li> -->
+                <!-- <li class="nav-item mb-2"><a class="nav-link p-0 text-white" routerLink="testimonials"><s>Testimonials</s></a></li> -->
             </ul>
         </div>
 
         <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" style="cursor: pointer"><s>Careers</s></a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToFAQ()" style="cursor: pointer">FAQ</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" (click)="navigateToContact()" style="cursor: pointer">Contact Us</a></li>
+                <!-- <li class="nav-item mb-2"><a class="nav-link p-0 text-white" style="cursor: pointer"><s>Careers</s></a></li> -->
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" routerLink="/faq" style="cursor: pointer">FAQ</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" routerLink="/contact" style="cursor: pointer">Contact Us</a></li>
                 <li class="nav-item mb-2"><a class="nav-link p-0 text-white"
-                        (click)="navigateToPrivacy()" style="cursor: pointer">Privacy Policy</a></li>
+                        routerLink="/privacy" style="cursor: pointer">Privacy Policy</a></li>
                 <li class="nav-item mb-2"><a class="nav-link p-0 text-white"
-                        (click)="navigateToTermsConditions()" style="cursor: pointer">Terms and Condition</a></li>
+                        routerLink="/termsconditions" style="cursor: pointer">Terms and Condition</a></li>
             </ul>
         </div>
 
@@ -37,7 +37,7 @@
                 </div>
                 <div class="mt-2">
                     <i class="fa-solid fa-envelope"></i> <a href="mailto:adhiraj.unisan@gmail.com"
-                        class="text-decoration-none text-white">&nbsp; adhiraj.unisan@gmail.com</a>
+                        class="text-decoration-none text-white">&nbsp; administrator@unisan.in</a>
                 </div>
             </form>
             <div class="mt-5">

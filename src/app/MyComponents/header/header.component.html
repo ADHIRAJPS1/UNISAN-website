@@ -6,6 +6,10 @@
                 alt="Branding" width="90">
         </a>
 
+        <h5 class="nav-item d-lg-none">
+            <a class="btn d-lg-block text-white primarycolor rounded" routerLink="/support" routerLinkActive="active">DONATE US</a>
+        </h5>
+        
         <button class="navbar-toggler bg-light p-2 text-white bg-opacity-25 " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -15,9 +19,12 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <div class="rounded p-2 d-none d-lg-block fw-semibold">
                 <ul class="navbar-nav gap-lg-3">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link text-white" routerLink="/" routerLinkActive="active"
                             [routerLinkActiveOptions]="{ exact: true }">Works</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="btn d-lg-block d-none text-white primarycolor rounded" routerLink="/support" routerLinkActive="active">DONATE US</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" routerLink="/services" routerLinkActive="active">Services</a>
@@ -50,6 +57,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-white d-lg-none" routerLink="/contact" routerLinkActive="active">Contact
                             Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <h5><a class="nav-link text-white" routerLink="/support"><b>DONATE</b></a></h5>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white d-lg-none" routerLink="/external"

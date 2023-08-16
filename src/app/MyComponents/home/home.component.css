@@ -22,7 +22,7 @@
 }
 
 .no-spinners::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+    -webkit-appearance: display;
     margin: 0;
 }
 
